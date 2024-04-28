@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apple</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .nav {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+
+        .nav a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .main {
+            background-color: #f0f0f0;
+            padding: 20px;
+        }
+
+        .product {
+            margin-bottom: 20px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        form input[type="text"],
+        form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        form input[type="submit"] {
+            background-color: #333;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h1>Apple</h1>
+        <div class="nav">
+            <a href="#">Home</a>
+            <a href="#">Products</a>
+            <a href="#">Buttons</a>
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="product">
+            <img src="https://via.placeholder.com/150" alt="Apple Product">
+            <h2>Product Name</h2>
+            <p>Description of the product goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <ul>
+                <li>Feature 1</li>
+                <li>Feature 2</li>
+                <li>Feature 3</li>
+            </ul>
+        </div>
+            
+        <form>
+            <h2>Contact Us</h2>
+            <input type="text" placeholder="Name">
+            <input type="text" placeholder="Email">
+            <textarea placeholder="Message"></textarea>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+    <div class="footer">
+        &copy; 2024 Apple Inc. All rights reserved.
+    </div>
+
+</body>
+
+</html>

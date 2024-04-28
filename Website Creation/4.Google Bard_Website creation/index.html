@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apple</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: linear-gradient(to right, #ff9999, #66b3ff);
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 2rem;
+            background-color: #fff;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .header h1 {
+            font-size: 2rem;
+            margin: 0;
+        }
+
+        .header button {
+            padding: 0.5rem 1rem;
+            border: none;
+            border-radius: 5px;
+            background-color: #f0f0f0;
+            cursor: pointer;
+            margin-left: 1rem;
+        }
+
+        .main {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 2rem;
+        }
+
+        .product {
+            width: calc(33% - 1.5rem);
+            margin: 0.75rem;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            padding: 1rem;
+        }
+
+        .product img {
+            width: 100%;
+            height: auto;
+        }
+
+        .product h3 {
+            margin: 1rem 0;
+            font-size: 1.2rem;
+        }
+
+        .product p {
+            line-height: 1.5;
+        }
+
+        .product button {
+            padding: 0.5rem 1rem;
+            border: none;
+            border-radius: 5px;
+            background-color: #007bff;
+            color: #fff;
+            cursor: pointer;
+            margin-top: 1rem;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+
+        .form-container {
+            margin: 2rem auto;
+            max-width: 500px;
+            padding: 2rem;
+            border-radius: 5px;
+            background-color: #fff;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .form-header {
+            font-size: 1.2rem;
+            margin-bottom: 1rem;
+        }
+
+        .form-group {
+            margin-bottom: 1rem;
+        }
+
+        .form-label {
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+
+        .form-control {
+            padding: 0.5rem 1rem;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            width: 100%;
+        }
+
+        .form-btn {
+            padding: 0.75rem 1.5rem;
+            border: none;
+            border-radius: 5px;
+            background-color: #007bff;
+            color: #fff;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>Apple</h1>
+        <button>Home</button>
+        <button>Products</button>
+    </header>
+
+    <main class="main">
+        <div class="product">
+            <img src="https://placeholdit.img/200x200/ff0000/fff" alt="iPhone">
+            <h3>iPhone</h3>
+            <p>Experience the power and elegance of iPhone. Explore our latest models with advanced camera systems, A-series Bionic chips, and stunning Super Retina displays.</p>
+            <button>Learn More</button>
+        </div>
+
+        <div class="product">
+            <img src="https://placeholdit.img/200x200/0000ff/fff" alt="Mac">
+            <h3>Mac</h3>
+            <p>Take your creativity and productivity to the next level with our powerful and versatile Mac computers. Choose from desktops like the iMac and Mac mini, or the portable powerhouse MacBook Pro and MacBook Air.</p>
+            <button>Learn More</button>
+        </div>
+
+        <div class="product">
+            <img src="https://placeholdit.img/200x200/ffff00/fff" alt="iPad">
+            <h3>iPad</h3>
+            <p>The perfect blend of portability and power, iPad is your essential device for work, play, and everything in between. Enjoy a beautiful Retina display, powerful A-series chip, and intuitive iPadOS.</p>
+            <button>Learn More</button>
+        </div>
+        </main>
+
+    <footer class="footer">
+        <p>&copy; Apple Inc. 2024</p>
+    </footer>
+
+    <section class="form-container">
+        <h2 class="form-header">Stay Connected</h2>
+        <form>
+            <div class="form-group">
+                <label class="form-label" for="name">Name:</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <label class="form-label" for="email">Email:</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter your email">
+            </div>
+            <div class="form-group">
+                <label class="form-label">Subscribe to:</label>
+                <div>
+                    <input type="checkbox" id="newsletter"> <label for="newsletter">Newsletter</label>
+                    <input type="checkbox" id="updates"> <label for="updates">Product Updates</label>
+                </div>
+            </div>
+            <button type="submit" class="form-btn">Sign Up</button>
+        </form>
+    </section>
+</body>
+</html>

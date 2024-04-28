@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apple</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+    header {
+      background-color: #0071E3;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+    .content {
+      padding: 20px;
+    }
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+    .product {
+      margin-bottom: 20px;
+      border: 1px solid #ddd;
+      padding: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    .product img {
+      width: 200px;
+      margin-right: 20px;
+    }
+    form {
+      margin-top: 20px;
+    }
+    input[type="text"], textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+    input[type="submit"] {
+      background-color: #0071E3;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Apple</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Products</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+  <div class="content">
+    <div class="product">
+      <img src="iphone.jpg" alt="iPhone">
+      <div>
+        <h2>iPhone</h2>
+        <p>The iPhone is a line of smartphones designed and marketed by Apple Inc. It runs Apple's iOS mobile operating system, known for its user-friendly interface and extensive app ecosystem.</p>
+        <p>Features:</p>
+        <ul>
+          <li>Face ID or Touch ID for secure authentication</li>
+          <li>High-quality cameras for photos and videos</li>
+          <li>Powerful performance with Apple-designed chips</li>
+        </ul>
+      </div>
+    </div>
+    <div class="product">
+      <img src="macbook.jpg" alt="MacBook">
+      <div>
+        <h2>MacBook</h2>
+        <p>The MacBook is a line of laptops designed and manufactured by Apple Inc. It offers a balance of portability and performance, making it suitable for a wide range of tasks.</p>
+        <p>Features:</p>
+        <ul>
+          <li>Retina display for crisp visuals</li>
+          <li>Long-lasting battery life</li>
+          <li>Thin and lightweight design</li>
+        </ul>
+      </div>
+    </div>
+    <form>
+      <h2>Contact Us</h2>
+      <input type="text" placeholder="Name">
+      <input type="text" placeholder="Email">
+      <textarea placeholder="Message"></textarea>
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+  <footer>
+    <p>&copy; 2024 Apple Inc. All rights reserved.</p>
+  </footer>
+</body>
+</html>
